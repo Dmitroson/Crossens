@@ -1,13 +1,47 @@
 .container{
-    width: 800px;
+    width: 620px;
+    height: 620px;
     margin: 0 auto;
+}
+
+p{
+    visibility: hidden;
 }
 
 .picture{
     width: 200px;
     height: 200px;
-    background-color: #ff4c15;
+    background-color: #49B1DD;
     margin: 2px;
     display: inline-block;
+    text-align: center;
+    font-size: 95px;
+    transition: 0.5s ease all;
 }
 
+.active{
+    background-color: #FC9621;
+    transition: 0.5s ease all;
+}
+
+.checkout{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+input{
+    margin-right: 10px;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: block;
+    width: 100px;
+    background: #FED428;
+    text-decoration: none;
+    color: #322012;
+    text-align: center;
+    padding: 5px 0;
+}
