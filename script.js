@@ -1,3 +1,5 @@
+// Created by Kotenko Oleksandr, Kozak Sergiy, Kryvonos Myhailo
+
 let container = document.querySelector('div.container');
 let selectedElement;
 
