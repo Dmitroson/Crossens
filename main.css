@@ -1,0 +1,13 @@
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    background-color: #ff4c15;
+    margin: 2px;
+    display: inline-block;
+}
+
